@@ -84,6 +84,8 @@ chmod 644 /lib/systemd/system/wm8960-soundcard.service
 systemctl daemon-reload
 systemctl enable wm8960-soundcard.service
 systemctl start wm8960-soundcard.service
+#test service
+systemctl status wm8960-soundcard.service
 
 echo "------------------------------------------------------"
 echo "Please reboot your raspberry pi to apply all settings"
